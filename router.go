@@ -7,7 +7,7 @@ import (
 )
 
 type (
-	//Router 路由器
+	//Router 路由器设计
 	Router struct {
 		//上级处理函数集合
 		globalHandlers []HandlerFunc
